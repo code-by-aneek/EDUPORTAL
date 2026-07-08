@@ -396,9 +396,9 @@ export default function App() {
               )}
             </div>
           )}
+          
 
-        
-            </div>
+        </div>
 
         {/* WEBSITE FOOTER */}
         <footer className="bg-[#1F315D] text-white py-4 text-center border-t-2 border-[#D4A017] mt-8">
@@ -414,6 +414,7 @@ export default function App() {
 
       {/* FLOAT ACADEMIC AI STUDY BOT (Only active for authenticated accounts) */}
       <AIChatBot courseCode={selectedCourseId || undefined} />
+
       {/* MODAL VIEWING ACTIVE CERTIFICATE */}
       {activeCertificate && (
         <CertificateViewer 
