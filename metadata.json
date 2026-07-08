@@ -1,0 +1,6 @@
+{
+  "name": "Learning",
+  "description": "A premium University Learning Management System designed for students, teachers, and administrators at Nexus University.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,300..900;1,300..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import "tailwindcss";
+
+:root {
+  --font-sans: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Crimson Pro", Georgia, serif;
+
+  --color-primary: #1F315D;
+  --color-gold: #D4A017;
+  --color-academic-bg: #F8F5EE;
+  --color-primary-light: #2A427D;
+}
+
+body {
+  background-color: var(--color-academic-bg);
+  font-family: var(--font-sans);
+  color: #1F2937;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6, .font-academic-heading {
+  font-family: var(--font-serif);
+}
+
+/* Custom premium scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F3F4F6;
+}
+::-webkit-scrollbar-thumb {
+  background: #D1D5DB;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #9CA3AF;
+}
+
